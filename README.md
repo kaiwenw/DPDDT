@@ -1,4 +1,5 @@
-# Scalable and Provably Accurate Algorithms for Differentially Private Distributed Decision Tree Learning
+## [Scalable and Provably Accurate Algorithms for Differentially Private Distributed Decision Tree Learning](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/papers/paper_12.pdf)
+## [AAAI Workshop on Privacy-Preserving Artificial Intelligence](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/) @ AAAI-20
 
 ## Setup on Ubuntu 18.04 LTS
 The DP-TopDown algorithm is implemented in C++, so we need `GCC` and `CMake` to 
@@ -9,7 +10,7 @@ sudo apt update && sudo apt install -y build-essential
 ```
 
 Then, install `CMake` (at least version 3.12). \
-Download from https://cmake.org/download/, unzip it and go into the folder. \
+[Download](https://cmake.org/download/), unzip, and cd into the folder. \
 Then run
 ```
 ./bootstrap && make -j10
@@ -17,8 +18,7 @@ sudo make install
 ```
 
 
-### Install `protobuf` (version 3.6.1). 
-#### Link: https://github.com/protocolbuffers/protobuf/blob/master/src/README.md
+### [Install `protobuf` (version 3.6.1)](https://github.com/protocolbuffers/protobuf/blob/master/src/README.md)
 For reference: \
 Run the following commands (taken from the link). \
 Note: the make commands can take a while. 
