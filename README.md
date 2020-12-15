@@ -1,5 +1,16 @@
 ## [Scalable and Provably Accurate Algorithms for Differentially Private Distributed Decision Tree Learning](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/papers/paper_12.pdf)
-## [AAAI Workshop on Privacy-Preserving Artificial Intelligence](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/) @ AAAI-20
+## [AAAI Workshop on Privacy-Preserving Artificial Intelligence](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/) @ AAAI-2020
+## Citation
+```
+K. W. Wang, T. Dick, and M.-F. Balcan. Scalable and provably accurate algorithms for differentially private distributed decision tree learning. In AAAI Workshop on Privacy-Preserving Artificial Intelligence, 2020
+
+@inproceedings{Wang2020ScalableAP,
+  title={Scalable and provably accurate algorithms for differentially private distributed decision tree learning},
+  author={Kai Wen Wang and Travis Dick and Maria-Florina Balcan},
+  booktitle={AAAI Workshop on Privacy-Preserving Artificial Intelligence},
+  year={2020}
+}
+```
 
 ## Setup on Ubuntu 18.04 LTS
 The DP-TopDown algorithm is implemented in C++, so we need `GCC` and `CMake` to 
